@@ -4,7 +4,7 @@ import {
   MailProviderProps,
   SendMailProps,
   WebhookForSendMailProps
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import fetch from 'cross-fetch'
 

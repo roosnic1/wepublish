@@ -20,7 +20,7 @@ import {
   PaymentPeriodicity,
   SubscriptionPeriod,
   SubscriptionDeactivation
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 export enum CollectionName {
   Migrations = 'migrations',

@@ -4,7 +4,7 @@ import {
   OptionalPaymentMethod,
   PaymentMethod,
   UpdatePaymentMethodArgs
-} from '@wepublish/api/lib/db/paymentMethod'
+} from '@tsri-wepublish/api/lib/db/paymentMethod'
 import {Collection, Db} from 'mongodb'
 import {CollectionName, DBPaymentMethod} from './schema'
 

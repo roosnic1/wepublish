@@ -11,7 +11,7 @@ import {
   DeleteMailLogArgs,
   GetMailLogsArgs,
   MailLogSort
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db, MongoCountPreferences, FilterQuery} from 'mongodb'
 
