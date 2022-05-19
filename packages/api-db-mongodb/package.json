@@ -1,5 +1,5 @@
 {
-  "name": "@wepublish/api-db-mongodb",
+  "name": "@tsri-wepublish/api-db-mongodb",
   "version": "3.0.0",
   "description": "We.publish Database adapter for mongoDB",
   "keywords": [
@@ -11,14 +11,14 @@
     "cms",
     "subscription"
   ],
-  "homepage": "https://github.com/wepublish/wepublish",
+  "homepage": "https://github.com/roosnic1/wepublish",
   "bugs": {
-    "url": "https://github.com/wepublish/wepublish/issues",
-    "email": "development@wepublish.ch"
+    "url": "https://github.com/roosnic1/wepublish/issues",
+    "email": "nico.roos@tsri.ch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wepublish/wepublish.git",
+    "url": "https://github.com/roosnic1/wepublish.git",
     "directory": "packages/api-db-mongodb"
   },
   "main": "./lib/",
@@ -47,6 +47,6 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "@wepublish/api": "*"
+    "@tsri-wepublish/api": "*"
   }
 }

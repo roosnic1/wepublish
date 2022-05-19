@@ -1,5 +1,5 @@
 {
-  "name": "@wepublish/editor",
+  "name": "@tsri-wepublish/editor",
   "version": "3.0.0",
   "description": "We.publish CMS Editor",
   "keywords": [
@@ -12,14 +12,14 @@
     "cms",
     "subscription"
   ],
-  "homepage": "https://github.com/wepublish/wepublish",
+  "homepage": "https://github.com/roosnic1/wepublish",
   "bugs": {
-    "url": "https://github.com/wepublish/wepublish/issues",
-    "email": "development@wepublish.ch"
+    "url": "https://github.com/roosnic1/wepublish/issues",
+    "email": "nico.roos@tsri.ch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wepublish/wepublish.git",
+    "url": "https://github.com/roosnic1/wepublish.git",
     "directory": "packages/editor"
   },
   "bin": {
