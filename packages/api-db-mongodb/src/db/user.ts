@@ -25,7 +25,7 @@ import {
   UserOAuth2Account,
   UserOAuth2AccountArgs,
   UserSort
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db, FilterQuery, MongoCountPreferences, MongoError} from 'mongodb'
 

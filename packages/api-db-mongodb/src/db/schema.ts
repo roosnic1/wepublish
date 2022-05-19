@@ -18,7 +18,7 @@ import {
   PaymentState,
   UserAddress,
   UserOAuth2Account
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 export enum CollectionName {
   Migrations = 'migrations',

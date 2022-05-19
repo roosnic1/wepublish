@@ -5,7 +5,7 @@ import {
   DeleteNavigationArgs,
   Navigation,
   CreateNavigationArgs
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 import {Collection, Db, MongoError} from 'mongodb'
 
 import {CollectionName, DBNavigation} from './schema'

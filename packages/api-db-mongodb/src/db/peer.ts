@@ -6,7 +6,7 @@ import {
   PeerProfileInput,
   UpdatePeerInput,
   CreatePeerInput
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db} from 'mongodb'
 
