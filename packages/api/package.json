@@ -1,5 +1,5 @@
 {
-  "name": "@tsri-wepublish/wepublish-api",
+  "name": "@tsri-wepublish/api",
   "version": "3.0.0",
   "description": "API core for we.publish.",
   "keywords": [
