@@ -1,5 +1,5 @@
 {
-  "name": "@wepublish/api-db-mongodb",
+  "name": "@tsri-wepublish/api-db-mongodb",
   "version": "3.0.0-alpha.1",
   "description": "We.publish Database adapter for mongoDB",
   "keywords": [
