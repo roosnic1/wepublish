@@ -11,6 +11,9 @@
     "subscription",
     "graphql"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/roosnic1/wepublish",
   "bugs": {
     "url": "https://github.com/roosnic1/wepublish/issues",
