@@ -67,7 +67,38 @@ jobs:
 #      - name: Sleep for 60s
 #        uses: juliangruber/sleep-action@v1
 #        with:
-#          time: 60s
-#      - name: Run E2E tests
-#        if: always()
-#        run: /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/e2e.ts --assertion-timeout 10000
+#          cluster_name: funiciello-dev-cluster
+#          location: europe-west6
+#          project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
+#          credentials: ${{ secrets.GCLOUD_AUTH_KEY }}
+#      - name: Deploy to kubernetes
+#        run: kubectl apply -f ./kubernetesConfigs
+#      - name: Slack Notification
+#        if: success()
+#        env:
+#          BRANCH_NAME: ${{ github.event.pull_request.head.ref }}
+#          PR_NUMBER: ${{ github.event.pull_request.number }}
+#          PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
+#          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_WP_DEV_CHANNEL }}
+#        run: |
+#          cd ./config
+#          yarn install
+#          node ./notify.js
+##  e2eTest:
+##    needs: deployment
+##    name: Runs e2e Test on Feature instance
+##    runs-on: self-hosted
+##    container:
+##      image: testcafe/testcafe
+##      options: --user root
+##    env:
+##      BRANCH_NAME: ${{ github.event.pull_request.head.ref }}
+##    steps:
+##      - uses: actions/checkout@v2
+##      - name: Sleep for 60s
+##        uses: juliangruber/sleep-action@v1
+##        with:
+##          time: 60s
+##      - name: Run E2E tests
+##        if: always()
+##        run: /opt/testcafe/docker/testcafe-docker.sh chromium:headless tests/e2e.ts --assertion-timeout 10000
