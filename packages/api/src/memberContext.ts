@@ -539,6 +539,7 @@ export class MemberContext implements MemberContext {
             recipient: invoice.mail,
             data: {
               user,
+              ...(user ? {loginURL: this.getLoginUrlForUser(user)} : {}),
               invoice,
               paymentProviderID: paymentMethod.paymentProviderID,
               errorCode: 'customer_missing'
@@ -627,6 +628,7 @@ export class MemberContext implements MemberContext {
         recipient: invoice.mail,
         data: {
           user,
+          ...(user ? {loginURL: this.getLoginUrlForUser(user)} : {}),
           invoice,
           paymentProviderID: paymentProvider.id,
           errorCode: intent.errorCode
