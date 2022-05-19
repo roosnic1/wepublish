@@ -1,7 +1,7 @@
 {
   "version": "3.0.0-alpha.1",
   "changelog": {
-    "repo": "wepublish/wepublish",
+    "repo": "roosnic1/wepublish",
     "cacheDir": ".changelog",
     "labels": {
       "PR: Breaking Change :boom:": ":boom: Breaking Change",
@@ -31,6 +31,5 @@
     "packages/api-db-mongodb",
     "packages/api-media-karma",
     "packages/editor",
-    "packages/oauth2"
   ]
 }
