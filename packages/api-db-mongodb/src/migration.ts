@@ -7,7 +7,7 @@ import {
   PaymentProviderCustomer,
   Subscription,
   SubscriptionDeactivationReason
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 import {slugify} from './utility'
 
 export interface Migration {

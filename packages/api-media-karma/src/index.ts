@@ -4,7 +4,7 @@ import {
   UploadImage,
   ImageTransformation,
   ArrayBufferUpload
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 import {FileUpload} from 'graphql-upload'
 import fetch from 'node-fetch'
 import FormData from 'form-data'

@@ -11,7 +11,7 @@ import {
   LimitType,
   InputCursorType,
   UserRoleSort
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db, FilterQuery, MongoCountPreferences} from 'mongodb'
 
