@@ -1,6 +1,6 @@
 {
   "name": "@tsri-wepublish/api-media-karma",
-  "version": "3.0.0-alpha.1",
+  "version": "3.0.0-alpha.1-loginurl",
   "description": "We.publish media service",
   "keywords": [
     "images",
