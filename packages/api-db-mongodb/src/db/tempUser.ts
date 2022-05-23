@@ -5,7 +5,7 @@ import {
   OptionalTempUser,
   UpdatePaymentProviderCustomerArgs,
   UpdateTempUserArgs
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db} from 'mongodb'
 
