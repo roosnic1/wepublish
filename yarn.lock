@@ -5627,15 +5627,6 @@
     fela-dom "^10.6.1"
     path-to-regexp "^3.0.0"
 
-"@wepublish/oauth2@*":
-  version "2.15.0"
-  resolved "https://registry.npmjs.org/@wepublish/oauth2/-/oauth2-2.15.0.tgz#768a5810b91c68cfab3802f722d64e49f4ab7eeb"
-  integrity sha512-d37UTdaphTra4rloVPJWgKbiwCLWD7W6wkLNTFGtynWmJ1Ifa7K+btJLDK9r0sbIzSNC27W7+CHtxk6sh68nvQ==
-  dependencies:
-    express "^4.17.1"
-    lodash "^4.17.19"
-    oidc-provider "^6.23.4"
-
 "@wojtekmaj/enzyme-adapter-react-17@^0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@wojtekmaj/enzyme-adapter-react-17/-/enzyme-adapter-react-17-0.6.3.tgz#bf7cd6007d99996bd7d98c843644b213a3ecc74e"
