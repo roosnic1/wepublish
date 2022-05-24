@@ -159,7 +159,7 @@ export function UserEditPanel({id, onClose, onSave}: UserEditPanelProps) {
       <Drawer.Body>
         <Panel>
           <Form fluid={true}>
-            <FormGroup>
+            <FormGroup style={{display: 'none'}}>
               <ControlLabel>{t('userList.panels.firstName')}</ControlLabel>
               <FormControl
                 name={t('userList.panels.firstName')}
