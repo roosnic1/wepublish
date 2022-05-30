@@ -94,18 +94,38 @@ exports[`User Edit Panel should allow a new user to be created 1`] = `
                     >
                       <withStyleProps(defaultProps(FormGroup))
                         classPrefix="rs-form-group"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
                       >
                         <defaultProps(FormGroup)
                           className=""
                           classPrefix="rs-form-group"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
                         >
                           <FormGroup
                             className=""
                             classPrefix="rs-form-group"
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }
                           >
                             <div
                               className="rs-form-group"
                               role="group"
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
                             >
                               <defaultProps(ControlLabel)
                                 classPrefix="rs-control-label"
@@ -2878,18 +2898,38 @@ exports[`User Edit Panel should allow user role to be added 1`] = `
                     >
                       <withStyleProps(defaultProps(FormGroup))
                         classPrefix="rs-form-group"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
                       >
                         <defaultProps(FormGroup)
                           className=""
                           classPrefix="rs-form-group"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
                         >
                           <FormGroup
                             className=""
                             classPrefix="rs-form-group"
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }
                           >
                             <div
                               className="rs-form-group"
                               role="group"
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
                             >
                               <defaultProps(ControlLabel)
                                 classPrefix="rs-control-label"
@@ -6534,18 +6574,38 @@ exports[`User Edit Panel should allow user role to be removed 1`] = `
                     >
                       <withStyleProps(defaultProps(FormGroup))
                         classPrefix="rs-form-group"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
                       >
                         <defaultProps(FormGroup)
                           className=""
                           classPrefix="rs-form-group"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
                         >
                           <FormGroup
                             className=""
                             classPrefix="rs-form-group"
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }
                           >
                             <div
                               className="rs-form-group"
                               role="group"
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
                             >
                               <defaultProps(ControlLabel)
                                 classPrefix="rs-control-label"
@@ -10412,18 +10472,38 @@ exports[`User Edit Panel should render 1`] = `
                     >
                       <withStyleProps(defaultProps(FormGroup))
                         classPrefix="rs-form-group"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
                       >
                         <defaultProps(FormGroup)
                           className=""
                           classPrefix="rs-form-group"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
                         >
                           <FormGroup
                             className=""
                             classPrefix="rs-form-group"
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }
                           >
                             <div
                               className="rs-form-group"
                               role="group"
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
                             >
                               <defaultProps(ControlLabel)
                                 classPrefix="rs-control-label"
@@ -13031,18 +13111,38 @@ exports[`User Edit Panel should render with ID 1`] = `
                     >
                       <withStyleProps(defaultProps(FormGroup))
                         classPrefix="rs-form-group"
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
                       >
                         <defaultProps(FormGroup)
                           className=""
                           classPrefix="rs-form-group"
+                          style={
+                            Object {
+                              "display": "none",
+                            }
+                          }
                         >
                           <FormGroup
                             className=""
                             classPrefix="rs-form-group"
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }
                           >
                             <div
                               className="rs-form-group"
                               role="group"
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
                             >
                               <defaultProps(ControlLabel)
                                 classPrefix="rs-control-label"
