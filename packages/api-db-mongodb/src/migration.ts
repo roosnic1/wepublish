@@ -1,6 +1,10 @@
 import {Db} from 'mongodb'
 import {CollectionName, DBInvoice, DBPaymentMethod, DBUser} from './db/schema'
-import {PaymentProviderCustomer, Subscription, SubscriptionDeactivationReason} from '@wepublish/api'
+import {
+  PaymentProviderCustomer,
+  Subscription,
+  SubscriptionDeactivationReason
+} from '@tsri-wepublish/api'
 import {slugify} from './utility'
 
 export interface Migration {

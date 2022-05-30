@@ -1,4 +1,4 @@
-import {DateFilterComparison} from '@wepublish/api'
+import {DateFilterComparison} from '@tsri-wepublish/api'
 
 export function mapDateFilterComparisonToMongoQueryOperatior(
   operator: DateFilterComparison

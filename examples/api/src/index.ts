@@ -17,10 +17,10 @@ import {
   URLAdapter,
   WepublishServer,
   AlgebraicCaptchaChallenge
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
-import {KarmaMediaAdapter} from '@wepublish/api-media-karma'
-import {MongoDBAdapter} from '@wepublish/api-db-mongodb'
+import {KarmaMediaAdapter} from '@tsri-wepublish/api-media-karma'
+import {MongoDBAdapter} from '@tsri-wepublish/api-db-mongodb'
 
 import {URL} from 'url'
 import {SlackMailProvider} from './SlackMailProvider'

@@ -184,16 +184,6 @@ export function UserList() {
             </Cell>
           </Column>
           <Column width={200} align="left" resizable sortable>
-            <HeaderCell>{t('userList.overview.firstName')}</HeaderCell>
-            <Cell dataKey={'firstName'}>
-              {(rowData: FullUserFragment) => (
-                <Link route={UserEditRoute.create({id: rowData.id})}>
-                  {rowData.firstName || ''}
-                </Link>
-              )}
-            </Cell>
-          </Column>
-          <Column width={200} align="left" resizable sortable>
             <HeaderCell>{t('userList.overview.name')}</HeaderCell>
             <Cell dataKey={'name'}>
               {(rowData: FullUserFragment) => (

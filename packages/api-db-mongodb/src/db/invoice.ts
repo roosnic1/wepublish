@@ -11,7 +11,7 @@ import {
   OptionalInvoice,
   SortOrder,
   UpdateInvoiceArgs
-} from '@wepublish/api'
+} from '@tsri-wepublish/api'
 
 import {Collection, Db, FilterQuery, MongoCountPreferences} from 'mongodb'
 
@@ -167,6 +167,7 @@ export class MongoDBInvoiceAdapter implements DBInvoiceAdapter {
         .match(textFilter)
         .match(cursorFilter)
         .sort({[sortField]: sortDirection, _id: sortDirection})
+        .skip(limit.skip ?? 0)
         .limit(limitCount + 1)
         .toArray()
     ])

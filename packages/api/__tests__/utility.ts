@@ -1,4 +1,4 @@
-import {MongoDBAdapter} from '@wepublish/api-db-mongodb'
+import {MongoDBAdapter} from '@tsri-wepublish/api-db-mongodb'
 import {URL} from 'url'
 import {
   Author,
@@ -16,7 +16,7 @@ import {
 import {ApolloServer} from 'apollo-server'
 import {createTestClient} from 'apollo-server-testing'
 import {ApolloServerTestClient} from 'apollo-server-testing/dist/createTestClient'
-import {KarmaMediaAdapter} from '@wepublish/api-media-karma/src'
+import {KarmaMediaAdapter} from '@tsri-wepublish/api-media-karma/src'
 import {AlgebraicCaptchaChallenge} from '../lib'
 
 export interface TestClient {
