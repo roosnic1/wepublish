@@ -56,7 +56,7 @@
     "build:api-example": "yarn workspace @tsri-wepublish/api-example build",
     "watch:api-example": "yarn workspace @tsri-wepublish/api-example watch",
     "start:api-example": "yarn workspace @tsri-wepublish/api-example start",
-    "clean:media": "docker-compose exec media rm -rf ./.media",
+    "clean:media": "docker compose exec media rm -rf ./.media",
     "setup:oauth2-example": "exit 0",
     "clean:oauth2-example": "exit 0",
     "build:oauth2-example": "exit 0",

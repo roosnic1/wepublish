@@ -1,7 +1,7 @@
 import {hot} from 'react-hot-loader/root'
 import React, {useContext, useEffect, useState} from 'react'
 
-import 'rsuite/lib/styles/index.less'
+import 'rsuite/styles/index.less'
 
 import {useRoute, RouteType, Route, useRouteDispatch, LoginRoute} from './route'
 
@@ -25,14 +25,16 @@ import {PeerArticleList} from './routes/peerArticleList'
 import {NavigationList} from './routes/navigationList'
 
 import './global.less'
-import {IntlProvider} from 'rsuite'
-import enGB from 'rsuite/lib/IntlProvider/locales/en_GB'
+import {CustomProvider} from 'rsuite'
+import enGB from 'rsuite/locales/en_GB'
 import fr from './locales/rsuiteFr'
 import de from './locales/rsuiteDe'
 import {useTranslation} from 'react-i18next'
 import {AuthContext} from './authContext'
 import {RouteActionType} from '@wepublish/karma.run-react'
 import {SubscriptionList} from './routes/subscriptionList'
+import {UserEditView} from './routes/userEditView'
+import {SettingList} from './routes/settingList'
 
 export function contentForRoute(route: Route) {
   switch (route.type) {
@@ -70,9 +72,10 @@ export function contentForRoute(route: Route) {
       return <AuthorList />
 
     case RouteType.UserList:
-    case RouteType.UserCreate:
-    case RouteType.UserEdit:
       return <UserList />
+    case RouteType.UserCreate:
+    case RouteType.UserEditView:
+      return <UserEditView />
 
     case RouteType.SubscriptionList:
     case RouteType.SubscriptionCreate:
@@ -101,6 +104,9 @@ export function contentForRoute(route: Route) {
 
     case RouteType.PeerArticleList:
       return <PeerArticleList />
+
+    case RouteType.SettingList:
+      return <SettingList />
 
     case RouteType.NotFound:
       return <ArticleList />
@@ -163,6 +169,6 @@ export function App() {
     }
   }, [session])
 
-  return <IntlProvider locale={lng}>{GetComponents(current)}</IntlProvider>
+  return <CustomProvider locale={lng}>{GetComponents(current)}</CustomProvider>
 }
 export const HotApp = hot(App)
